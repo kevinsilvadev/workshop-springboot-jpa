@@ -1,4 +1,4 @@
-package com.kevinjava.workshop;
+package com.kevinjava.course;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
