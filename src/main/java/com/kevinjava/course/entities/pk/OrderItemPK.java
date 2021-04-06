@@ -15,9 +15,9 @@ import lombok.Setter;
 
 @Embeddable
 @EqualsAndHashCode
-public class OrderItemPK  implements Serializable{
+public class OrderItemPK  implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	@Getter private static final long serialVersionUID = 1L;
 	
 	@ManyToOne
 	@JoinColumn(name = "order_id")
